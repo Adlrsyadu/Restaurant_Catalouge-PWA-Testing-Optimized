@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="manifest" href="./app.webmanifest">
+    <link rel="apple-touch-icon" href="/icons/icon-192x192.png">
+    <link rel="icon" href="./favicon.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" crossorigin="anonymous">
+    <title>Mau makan enak?</title>
+    </head>
+  <body>
+    <a href="#restaurant-list" class="skip-link">skip to content.</a>
+    <a id="hamburger" href="#">☰</a>
+    <nav id="drawer">
+      <ul class="header__menu">
+        <li><a href="#/list-restaurant">Home</a></li>
+        <li><a href="#/like">Favorite</a></li>
+        <li><a href="https://github.com/Adlrsyadu">About Us</a></li>
+      </ul>
+    </nav>
+    <main>
+      <header class="header">
+        <div class="header__logo"></div>
+        <div class="header__inner">
+          <h1 class="header__title">Mau makan enak?</h1>
+        </div>
+        <ul class="header__menu">
+          <li><a href="#/list-restaurant">Home</a></li>
+          <li><a href="#/like">Favorite</a></li>
+          <li><a href="https://github.com/Adlrsyadu">About Us</a></li>
+        </ul>
+      </header>
+    
+      <div class="hero">
+        <picture>
+          <source media="(max-width: 600px)" srcset="./images/heros/hero-image_4-small.jpg" class="hero-image">
+          <img src='./images/heros/hero-image_4-large.jpg' alt="hero image" class="hero-image">
+       </picture>
+        <div class="hero__inner">
+          <h1 class="hero__title">Bingung Liburan Mau Makan Apa?</h1>
+          <p class="hero__tagline">
+            Tidak perlu khawatir, kami menyediakan rekomendasi beberapa restoran dengan bintang 4 yang perlu anda coba.
+          </p>
+        </div>
+      </div>
+      
+      <section class="content" id="restaurant-list" tabindex="0">
+        <article class="headline">
+          <div class="headline__content">
+            <h1 class="headline__title">Tidak Perlu Khawatir !</h1>
+            <p class="headline__description">
+              Kami merekomendasikan berbagai restoran terbaik yang telah kami pilih dan merupakah hasil survey dari terbatasnya aplikasi penyedia restoran terbaik.
+            </p>
+            <button class="headline__button">READ MORE</button>
+          </div>
+        </article>
+      </section>
+      <div class="posts"></div>
+      <footer>
+        <p>&copy; 2023 - Mau Makan Enak?</p>
+      </footer>
+    </main>
+  </body>
+</html>
